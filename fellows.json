@@ -1,296 +1,2410 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Proctor Fellows — Alumni Directory</title>
-<style>
-  :root{
-    --ink:#0f1d2c; --ink-soft:#3d4e5e; --muted:#7a8896;
-    --line:#dde4eb; --bg:#f5f7fa; --paper:#ffffff;
-    --accent:#0b5394; --accent-soft:#eaf1f8; --accent-deep:#073e6e;
-    --gold:#c2933a;
-    --shadow-1:0 1px 3px rgba(15,29,44,.05);
-    --shadow-2:0 10px 28px rgba(15,29,44,.12);
-    --radius:14px;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,sans-serif;
-    --serif:Georgia,"Times New Roman",serif;
+[
+  {
+    "name": "John Nesemann, MD, MS",
+    "years": "2026–27",
+    "decade": "2020s",
+    "country": "",
+    "photo": "nesemann-john.webp",
+    "role": "",
+    "schooling": [
+      "University of Virginia, College",
+      "London School of Hygiene and Tropical Medicine, MS",
+      "University of California Los Angeles, MD"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Justin Ma, MD",
+    "years": "2026–27",
+    "decade": "2020s",
+    "country": "",
+    "photo": "ma-justin.webp",
+    "role": "",
+    "schooling": [
+      "University of Miami, BS, Microbiology &amp; Immunology",
+      "Duke University School of Medicine, MD",
+      "Southwest Healthcare Medical Education Consortium, Transitional Year Internship",
+      "University of California San Diego Medical Center / Shiley Eye Institute, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Morgan Harvey, MD",
+    "years": "2026–27",
+    "decade": "2020s",
+    "country": "",
+    "photo": "harvey-morgan.webp",
+    "role": "",
+    "schooling": [
+      "Uniformed Services University of the Health Sciences, MD",
+      "Ophthalmology Residency, San Diego, CA"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Zaynab Sajjadi, MD",
+    "years": "2026–27",
+    "decade": "2020s",
+    "country": "",
+    "photo": "sajjadi-zaynab.webp",
+    "role": "",
+    "schooling": [
+      "University of California, Berkeley, Undergraduate",
+      "Sidney Kimmel Medical College, Thomas Jefferson University, MD",
+      "University of Illinois Chicago, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Alyssa Coleman, MD",
+    "years": "2025–26",
+    "decade": "2020s",
+    "country": "",
+    "photo": "coleman-alyssa.webp",
+    "role": "",
+    "schooling": [
+      "University of Missouri, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Christopher Rosenberg, MD",
+    "years": "2025–26",
+    "decade": "2020s",
+    "country": "",
+    "photo": "rosenberg-christopher.webp",
+    "role": "",
+    "schooling": [
+      "Casey Eye Institute, Oregon Health &amp; Science University, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Khushali Shan, MD",
+    "years": "2025–26",
+    "decade": "2020s",
+    "country": "",
+    "photo": "shan-khushali.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ori Saban, MD",
+    "years": "2025–26",
+    "decade": "2020s",
+    "country": "",
+    "photo": "saban-ori.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Aaron Dotson, MD",
+    "years": "2024–25",
+    "decade": "2020s",
+    "country": "",
+    "photo": "dotson-aaron.webp",
+    "role": "",
+    "schooling": [
+      "University of Iowa, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Alekya Rajanala, MD",
+    "years": "2024–25",
+    "decade": "2020s",
+    "country": "",
+    "photo": "rajanala-alekya.webp",
+    "role": "",
+    "schooling": [
+      "University of Washington, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Blake Snyder, MD",
+    "years": "2024–25",
+    "decade": "2020s",
+    "country": "",
+    "photo": "snyder-blake.webp",
+    "role": "",
+    "schooling": [
+      "UC Davis, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Alejandro Arboleda, MD",
+    "years": "2023–24",
+    "decade": "2020s",
+    "country": "",
+    "photo": "arboleda-alejandro.webp",
+    "role": "",
+    "schooling": [
+      "University of Miami, School of Medicine, MD",
+      "Stanford University, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ashlin Joye, DO",
+    "years": "2023–24",
+    "decade": "2020s",
+    "country": "",
+    "photo": "joye-ashlin.webp",
+    "role": "",
+    "schooling": [
+      "Touro University, College of Osteopathic Medicine–California, DO",
+      "Oregon Health &amp; Science University, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Itamar Livnat, MD, PhD",
+    "years": "2023–24",
+    "decade": "2020s",
+    "country": "",
+    "photo": "livnat-itamar.webp",
+    "role": "",
+    "schooling": [
+      "University of Illinois Urbana-Champaign, MD",
+      "University of California, Irvine, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Martin Dionson, MD",
+    "years": "2023–24",
+    "decade": "2020s",
+    "country": "Philippines",
+    "photo": "dionson-martin.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Home Institution: Vicente Sotto Memorial Medical Center, Cebu, Philippines"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Myra Safo, MD, MPH",
+    "years": "2023–24",
+    "decade": "2020s",
+    "country": "",
+    "photo": "safo-myra.webp",
+    "role": "",
+    "schooling": [
+      "University of Illinois Urbana-Champaign, MD",
+      "University of California, Irvine, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Akshay R. Mentreddy, DO",
+    "years": "2022–23",
+    "decade": "2020s",
+    "country": "",
+    "photo": "mentreddy-akshay.webp",
+    "role": "",
+    "schooling": [
+      "Atrium Health Wake Forest Baptist Medical Center"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Katherine Niemeyer, MD",
+    "years": "2022–23",
+    "decade": "2020s",
+    "country": "",
+    "photo": "niemeyer-katherine.webp",
+    "role": "",
+    "schooling": [
+      "Kaiser Permanente"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Minh Tuan Nguyen, MD",
+    "years": "2022–23",
+    "decade": "2020s",
+    "country": "",
+    "photo": "nguyen-minh.webp",
+    "role": "",
+    "schooling": [
+      "Kaiser Permanente"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Punyanuch Pisitpayat, MD",
+    "years": "2022–23",
+    "decade": "2020s",
+    "country": "Thailand",
+    "photo": "pisitpayat-punyanuch.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Sukumvit Hospital, Bangkok, Thailand"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Adrian Tsang, MD",
+    "years": "2021–22",
+    "decade": "2020s",
+    "country": "Canada",
+    "photo": "tsang-adrian.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "University of Ottawa, MD",
+      "University of Ottawa, Residency (Ophthalmology)"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Christine Benador-Shen, MD",
+    "years": "2021–22",
+    "decade": "2020s",
+    "country": "",
+    "photo": "benador-shen-christine.webp",
+    "role": "",
+    "schooling": [
+      "Northwestern University Feinberg School of Medicine, Chicago, IL, MD",
+      "Olive View, UC Los Angeles Medical Center, Sylmar, CA, Internship",
+      "Tufts Medical Center, Boston, MA, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Hui Zhao, MD, PhD",
+    "years": "2021–22",
+    "decade": "2020s",
+    "country": "",
+    "photo": "zhao-hui.webp",
+    "role": "",
+    "schooling": [
+      "Zhejiang Medical University, Hangzhou, China, MD",
+      "Washington University Barnes Hospital, St. Louis, MO, Internship",
+      "Washington University Barnes Hospital, St. Louis, MO, Residency",
+      "University of California San Francisco, San Francisco, CA, Fellowship"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Amit Reddy, MD",
+    "years": "2020–21",
+    "decade": "2020s",
+    "country": "",
+    "photo": "reddy-amit.webp",
+    "role": "",
+    "schooling": [
+      "Duke University (NC), Undergraduate",
+      "University of Iowa Roy J. and Lucille A. Carver College of Medicine, MD",
+      "UCSF Fresno Medical Education Program, Internship",
+      "University of Colorado, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Amol A. Sura, MD",
+    "years": "2020–21",
+    "decade": "2020s",
+    "country": "",
+    "photo": "sura-amol.webp",
+    "role": "",
+    "schooling": [
+      "Louisiana State University in New Orleans, MD",
+      "University of Alabama at Birmingham, Residency",
+      "Duke Health"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Miel Sundararajan, MD",
+    "years": "2020–21",
+    "decade": "2020s",
+    "country": "",
+    "photo": "sundararajan-miel.webp",
+    "role": "",
+    "schooling": [
+      "UW Medicine, Seattle, Washington"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Brett Poulis, MD",
+    "years": "2019–20",
+    "decade": "2010s",
+    "country": "Canada",
+    "photo": "poulis-brett.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Kareem Moussa, MD",
+    "years": "2019–20",
+    "decade": "2010s",
+    "country": "",
+    "photo": "moussa-kareem.webp",
+    "role": "",
+    "schooling": [
+      "Duke University School of Medicine, Durham, MD",
+      "Santa Clara Valley Medical Center, San Jose, Internship",
+      "University of California, San Francisco, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Miel Sundararajan, MD",
+    "years": "2019–20",
+    "decade": "2010s",
+    "country": "",
+    "photo": "sundararajan-miel.webp",
+    "role": "",
+    "schooling": [
+      "UW Medicine, Seattle, Washington"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Plern Sutra, MD",
+    "years": "2019–20",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "sutra-plern.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Chulalongkorn University, MD",
+      "Khon Khaen University, Residency",
+      "Khon Khaen University, Specialist"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Travis Redd, MD, MPH",
+    "years": "2019–20",
+    "decade": "2010s",
+    "country": "",
+    "photo": "redd-travis.webp",
+    "role": "",
+    "schooling": [
+      "Oregon Health &amp; Science University, Portland, MD, MPH",
+      "Legacy Medical Group, Portland, Internship",
+      "Casey Eye Institute, Oregon Health &amp; Science University, Portland, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Athanasios Marneris, DO",
+    "years": "2018–19",
+    "decade": "2010s",
+    "country": "",
+    "photo": "marneris-athanasios.webp",
+    "role": "",
+    "schooling": [
+      "Lake Erie College of Osteopathic Medicine (LECOM)",
+      "St. John Providence Health System, Michigan",
+      "Ascension Macomb-Oakland Hospital, Michigan"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Edmund Tsui, MD",
+    "years": "2018–19",
+    "decade": "2010s",
+    "country": "",
+    "photo": "tsui-edmund.webp",
+    "role": "",
+    "schooling": [
+      "Geisel School of Medicine at Dartmouth, MD",
+      "Dartmouth-Hitchcock Medical Center, Internship",
+      "New York University School of Medicine, Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Hwang De-Kuang, MD",
+    "years": "2018–19",
+    "decade": "2010s",
+    "country": "Taiwan",
+    "photo": "hwang-de-kuang.webp",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Michele Lee, MD",
+    "years": "2018–19",
+    "decade": "2010s",
+    "country": "",
+    "photo": "lee-michele.webp",
+    "role": "",
+    "schooling": [
+      "Columbia University, MD",
+      "Mount Sinai St. Lukes - Roosevelt, Internship",
+      "Stanford, Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Todd Driver, MD",
+    "years": "2018–19",
+    "decade": "2010s",
+    "country": "",
+    "photo": "driver-todd.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Kaidi Wang, MD",
+    "years": "2017–18",
+    "decade": "2010s",
+    "country": "",
+    "photo": "wang-kaidi.webp",
+    "role": "",
+    "schooling": [
+      "Harvard Medical School, MD",
+      "Memorial Sloan Kettering Cancer Center, Transitional Year Internship",
+      "Stanford University, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Taniya Bhoopat, MD",
+    "years": "2017–18",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "bhoopat-taniya.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Chiangmai University, Chiangmai, Thailand, MD",
+      "Chiangmai University Hospital, Internship",
+      "Chiangmai University, Chiangmai, Thailand, Ophthalmology Resident",
+      "King Chulalongkorn Memorial Hospital, Bangkok, Thailand, Fellow in cornea and refractive surgery"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Varun Pawar, MD",
+    "years": "2017–18",
+    "decade": "2010s",
+    "country": "",
+    "photo": "pawar-varun.webp",
+    "role": "",
+    "schooling": [
+      "University of Cincinnati, MD",
+      "University of Cincinnati, Internal Medicine Internship",
+      "St. Louis University, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Yijie Brittany Lin, MD",
+    "years": "2017–18",
+    "decade": "2010s",
+    "country": "",
+    "photo": "lin-yijie.webp",
+    "role": "",
+    "schooling": [
+      "Harvard University, MD, MBA",
+      "Scripps Mercy Hospital San Diego, Transitional Year Internship",
+      "New York Eye and Ear Infirmary, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Dipal Shah, MD",
+    "years": "2016–17",
+    "decade": "2010s",
+    "country": "",
+    "photo": "shah-dipal.webp",
+    "role": "",
+    "schooling": [
+      "Rutgers, New Jersey Medical School, MD",
+      "Lenox Hill Hospital, New York, NY, Medical Internship",
+      "Northwell Health, Great Neck, NY, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jessica Shantha, MD",
+    "years": "2016–17",
+    "decade": "2010s",
+    "country": "",
+    "photo": "shantha-jessica.webp",
+    "role": "",
+    "schooling": [
+      "Morehouse School of Medicine, MD",
+      "Presbyterian St. Lukes Hospital, Denver, CO, Medical Internship",
+      "Emory University Atlanta, GA, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Peter Ryg, MD",
+    "years": "2016–17",
+    "decade": "2010s",
+    "country": "",
+    "photo": "ryg-peter.webp",
+    "role": "",
+    "schooling": [
+      "Jefferson Medical College, Philadelphia, PA, MD",
+      "Washington Hospital Center, Washington, DC, Medical Internship",
+      "Yale-New Haven Hospital, New Haven, CT, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Nina Ni, MD",
+    "years": "2015–16",
+    "decade": "2010s",
+    "country": "",
+    "photo": "ni-nina.webp",
+    "role": "",
+    "schooling": [
+      "Harvard College, BA",
+      "Yale School of Medicine, MD",
+      "Kaiser San Francisco, Internal Medicine Internship",
+      "Wills Eye Hospital, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Tova Mannis, MD",
+    "years": "2015–16",
+    "decade": "2010s",
+    "country": "",
+    "photo": "mannis-tova.webp",
+    "role": "",
+    "schooling": [
+      "University of California, San Francisco, MD",
+      "University of California, San Francisco, Residency",
+      "Regents of the University of California, Specialist"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Wipada Laovirojjanakul, MD",
+    "years": "2015–16",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "laovirojjanakul-wipada.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Chulalongkorn University, MD",
+      "Khon Kaen University, Thailand, Medical Internship",
+      "KKU Eye Center, Khon Kaen University, Ophthalmology Residency and Retina Fellowship"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jeffrey Golen, MD",
+    "years": "2014–15",
+    "decade": "2010s",
+    "country": "",
+    "photo": "golen-jeffrey.webp",
+    "role": "",
+    "schooling": [
+      "University of Cincinnati College of Medicine, MD",
+      "University of South Florida, Medical Internship",
+      "University of South Florida, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Michael Geske, MD",
+    "years": "2014–15",
+    "decade": "2010s",
+    "country": "",
+    "photo": "geske-michael.webp",
+    "role": "",
+    "schooling": [
+      "Washington University in St. Louis, MD, MA",
+      "University of California, San Francisco, Surgical Internship",
+      "University of California, San Francisco, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Priya Janardhana, MD",
+    "years": "2014–15",
+    "decade": "2010s",
+    "country": "",
+    "photo": "janardhana-priya.webp",
+    "role": "",
+    "schooling": [
+      "Boston University, MD",
+      "Boston University, Medical Internship",
+      "Boston University, Ophthalmology Resident"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Weeraya Pimolrat, MD",
+    "years": "2014–15",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Joseph Sheehan, MD, MS",
+    "years": "2013–14",
+    "decade": "2010s",
+    "country": "",
+    "photo": "sheehan-joseph.webp",
+    "role": "",
+    "schooling": [
+      "Boston University, MD",
+      "Boston University, Medical Internship",
+      "Boston University, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Julie Schallhorn, MD, MS",
+    "years": "2013–14",
+    "decade": "2010s",
+    "country": "",
+    "photo": "schallhorn-julie.webp",
+    "role": "",
+    "schooling": [
+      "University of Southern California, MD",
+      "Huntington Hospital, Surgical Internship",
+      "University of California, San Francisco, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Neil Chungfat, MD, MEng",
+    "years": "2013–14",
+    "decade": "2010s",
+    "country": "",
+    "photo": "chungfat-neil.webp",
+    "role": "",
+    "schooling": [
+      "Northwestern University, MD",
+      "Cedars Sinai Medical Center, Medical Internship",
+      "University of Wisconsin, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Thanapong Somkijrongroj, MD",
+    "years": "2013–14",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Elizabeth Grace, MD",
+    "years": "2012–13",
+    "decade": "2010s",
+    "country": "",
+    "photo": "grace-elizabeth.webp",
+    "role": "Fellow",
+    "schooling": [
+      "University of Iowa, MD",
+      "Kaiser Permanente Hospital, Medical Internship",
+      "University of Illinois Eye and Ear Infirmary, Ophthalmology Residency"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jennifer Rose-Nussbaumer, MD",
+    "years": "2012–13",
+    "decade": "2010s",
+    "country": "",
+    "photo": "rose-nussbaumer-jennifer.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Vincent Lam, MD",
+    "years": "2012–13",
+    "decade": "2010s",
+    "country": "",
+    "photo": "lam-vincent.webp",
+    "role": "",
+    "schooling": [
+      "University of British Columbia",
+      "New England College of Optometry, Boston, MA",
+      "St. George's University (SGU), Grenada",
+      "Medical College of Virginia / VCU Medical Center, Richmond, VA",
+      "Columbia University's Edward S. Harkness Eye Institute, New York, NY"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Waroonchat Issariyapat, MD",
+    "years": "2012–13",
+    "decade": "2010s",
+    "country": "Thailand",
+    "photo": "issariyapat-waroonchat.webp",
+    "role": "International Fellow",
+    "schooling": [
+      "Mahidol University, MD",
+      "Songklanagarind Hospital, Medical Internship",
+      "Ramathibodi Hospital, Ophthalmology Residency",
+      "Mahidol University, Cornea and Refractive Surgery Fellowship"
+    ],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Charles Lin, MD",
+    "years": "2011–12",
+    "decade": "2010s",
+    "country": "",
+    "photo": "lin-charles.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "John A. Gonzales, MD",
+    "years": "2011–12",
+    "decade": "2010s",
+    "country": "",
+    "photo": "gonzales-john.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ying Qian, MD",
+    "years": "2011–12",
+    "decade": "2010s",
+    "country": "",
+    "photo": "qian-ying.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Akbar Shakoor, MD",
+    "years": "2010–11",
+    "decade": "2010s",
+    "country": "",
+    "photo": "shakoor-akbar.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Cyril Dalmon, MD",
+    "years": "2010–11",
+    "decade": "2010s",
+    "country": "",
+    "photo": "dalmon-cyril.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Isabella Phan, MD",
+    "years": "2010–11",
+    "decade": "2010s",
+    "country": "",
+    "photo": "phan-isabella.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Mamta Agarwal, MD, FRCSEd, FRCOphth, FACS",
+    "years": "2010–11",
+    "decade": "2010s",
+    "country": "India",
+    "photo": "agarwal-mamta.jpg",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Choeng Jirawison, MD",
+    "years": "2009–10",
+    "decade": "2000s",
+    "country": "Thailand",
+    "photo": "jirawison-choeng.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert Fintelmann, MD",
+    "years": "2009–10",
+    "decade": "2000s",
+    "country": "",
+    "photo": "fintelmann-robert.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "William L. Gilmer, MD",
+    "years": "2009–10",
+    "decade": "2000s",
+    "country": "",
+    "photo": "gilmer-william-l.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ying Qian, MD",
+    "years": "2009–10",
+    "decade": "2000s",
+    "country": "",
+    "photo": "qian-ying.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Eliza Hoskins, MD",
+    "years": "2008–09",
+    "decade": "2000s",
+    "country": "",
+    "photo": "hoskins-eliza.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jamie Bhamra, MD",
+    "years": "2008–09",
+    "decade": "2000s",
+    "country": "Canada",
+    "photo": "bhamra-jamie.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Wantanee Sittivarakul, MD",
+    "years": "2008–09",
+    "decade": "2000s",
+    "country": "Thailand",
+    "photo": "sittivarakul-wantanee.jpg",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Yousuf Khalifa, MD",
+    "years": "2008–09",
+    "decade": "2000s",
+    "country": "",
+    "photo": "khalifa-yousuf.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Agnieszka Nagpal, MD",
+    "years": "2007–08",
+    "decade": "2000s",
+    "country": "",
+    "photo": "nagpal-agnes.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jason Skalet, MD",
+    "years": "2007–08",
+    "decade": "2000s",
+    "country": "",
+    "photo": "skalet-jason.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jeremy Keenan, MD",
+    "years": "2007–08",
+    "decade": "2000s",
+    "country": "",
+    "photo": "keenan-jeremy.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Nicole Fram, MD",
+    "years": "2007–08",
+    "decade": "2000s",
+    "country": "",
+    "photo": "fram-nicole.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Judy Ou, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "",
+    "photo": "ou-judy.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Julie Freidlin Leigh, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "",
+    "photo": "leigh-julie-freidlin.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Matilda Chan, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Menen Ayalew Shibeshi, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "Ethiopia",
+    "photo": "shibeshi-menen-ayalew.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Rapeeporn Yodprom, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "Thailand",
+    "photo": "yodprom-rapeeporn.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Shane K. Kim, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "",
+    "photo": "kim-shane.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Wiwan Sansanyudh, MD",
+    "years": "2006–07",
+    "decade": "2000s",
+    "country": "",
+    "photo": "sansanayudh-wiwan.jpg",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Colleen Halfpenny, MD",
+    "years": "2005–06",
+    "decade": "2000s",
+    "country": "",
+    "photo": "halfpenny-colleen.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": [
+      "https://www.willseye.org/doctor/colleen-p-halfpenny-md/"
+    ]
+  },
+  {
+    "name": "Deborah A. Gill, MD",
+    "years": "2005–06",
+    "decade": "2000s",
+    "country": "",
+    "photo": "gill-deborah.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": [
+      "https://www.linkedin.com/in/deborah-gill-861a833/details/education/"
+    ]
+  },
+  {
+    "name": "Eva Kim, MD",
+    "years": "2005–06",
+    "decade": "2000s",
+    "country": "",
+    "photo": "kim-eva.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": [
+      "https://rocketreach.co/eva-kim-email_70349197"
+    ]
+  },
+  {
+    "name": "Maria del Pilar Bernal, MD",
+    "years": "2005–06",
+    "decade": "2000s",
+    "country": "",
+    "photo": "bernal-maria-del-pilar.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Donald Stone, MD",
+    "years": "2004–05",
+    "decade": "2000s",
+    "country": "",
+    "photo": "stone-don.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": [
+      "https://www.spokaneeye.com/doctors/donald-u-stone-md/"
+    ]
+  },
+  {
+    "name": "Maria Del Rocio Murphy Maciel, MD",
+    "years": "2004–05",
+    "decade": "2000s",
+    "country": "Mexico",
+    "photo": "maciel-maria-del-rocio-murphy.jpg",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": [
+      "https://www.medicasurmexico.com/en/maria-del-rocio-murphy-maciel-md.html"
+    ]
+  },
+  {
+    "name": "Michael Saidel, MD",
+    "years": "2004–05",
+    "decade": "2000s",
+    "country": "",
+    "photo": "saidel-michael.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Nisha Acharya, MD",
+    "years": "2004–05",
+    "decade": "2000s",
+    "country": "",
+    "photo": "acharya-nisha.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Anu Manadhar, MD",
+    "years": "2003–04",
+    "decade": "2000s",
+    "country": "Nepal",
+    "photo": "manandhar-anu.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Gerami Seitzman, MD",
+    "years": "2003–04",
+    "decade": "2000s",
+    "country": "",
+    "photo": "seitzman-gerami.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Sarah M. Nehls (Rikkers), MD",
+    "years": "2003–04",
+    "decade": "2000s",
+    "country": "",
+    "photo": "nehls-sarah.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Teresa Magone, MD",
+    "years": "2003–04",
+    "decade": "2000s",
+    "country": "",
+    "photo": "magone-teresa.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Bennie Jeng, MD",
+    "years": "2002–03",
+    "decade": "2000s",
+    "country": "",
+    "photo": "jeng-bennie-hau.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Rookaya Mather, MD",
+    "years": "2002–03",
+    "decade": "2000s",
+    "country": "Canada",
+    "photo": "mather-rookaya.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Tisha Prabriputaloong, MD",
+    "years": "2002–04",
+    "decade": "2000s",
+    "country": "",
+    "photo": "prabriputaloong-tisha.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Bruno Branco, MD",
+    "years": "2001–02",
+    "decade": "2000s",
+    "country": "Brazil",
+    "photo": "branco-bruno-castelo.jpg",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Anna Hovakimyan, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "hovakimyan-anna.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Anthony J. Aldave, MD",
+    "years": "2000–02",
+    "decade": "2000s",
+    "country": "",
+    "photo": "aldave-anthony.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ayman Naseri, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "naseri-ayman.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Carlos Siverio, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "siverio-carlos.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Martin Mckibbin, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "mckibbin-martin.jpg",
+    "role": "Short-Term Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Min S. Chang, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Yumi Imai, MD",
+    "years": "2000–01",
+    "decade": "2000s",
+    "country": "",
+    "photo": "imai-yumi.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "James A. Parker, MD",
+    "years": "1984",
+    "decade": "1980s",
+    "country": "",
+    "photo": "parker-james.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Careen Yen Lowder, MD",
+    "years": "1983–84",
+    "decade": "1980s",
+    "country": "",
+    "photo": "lowder-careen.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Martin Mayers, MD",
+    "years": "1983–84",
+    "decade": "1980s",
+    "country": "",
+    "photo": "mayers-martin.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Wen Hua Zhang, MD",
+    "years": "1983–84",
+    "decade": "1980s",
+    "country": "China",
+    "photo": "zhang-wen-hua.jpg",
+    "role": "Cecilia Vaughan Fellowship",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "William R. Freeman, MD",
+    "years": "1983–84",
+    "decade": "1980s",
+    "country": "",
+    "photo": "freeman-william-r.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Edurado P. Penna, MD",
+    "years": "1982–83",
+    "decade": "1980s",
+    "country": "Brazil",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Gary P. Barth, MD",
+    "years": "1982–83",
+    "decade": "1980s",
+    "country": "",
+    "photo": "barth-gary-p.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "John C. Merriam, MD",
+    "years": "1982–83",
+    "decade": "1980s",
+    "country": "",
+    "photo": "merriam-john.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Oliver Korshin, MD",
+    "years": "1982",
+    "decade": "1980s",
+    "country": "",
+    "photo": "korshin-oliver.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert M. Webb, MD",
+    "years": "1982–83",
+    "decade": "1980s",
+    "country": "",
+    "photo": "webb-robert-m.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Shigeaki Ohno, MD",
+    "years": "1982",
+    "decade": "1980s",
+    "country": "Japan",
+    "photo": "ohno-shigeaki.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Yuichi Ohashi, MD",
+    "years": "1982–83",
+    "decade": "1980s",
+    "country": "Japan",
+    "photo": "ohashi-yuichi.jpg",
+    "role": "Cecilia Vaughan Fellowship",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Bruce I. Kirschner, MD",
+    "years": "1981–82",
+    "decade": "1980s",
+    "country": "",
+    "photo": "kirschner-bruce-i.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Carole A. Casteen, MD",
+    "years": "1981",
+    "decade": "1980s",
+    "country": "",
+    "photo": "casteen-carole-a.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "David M. Meisler, MD",
+    "years": "1981–82",
+    "decade": "1980s",
+    "country": "",
+    "photo": "meisler-david.png",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Philip E. Newman, MD",
+    "years": "1981–82",
+    "decade": "1980s",
+    "country": "",
+    "photo": "newman-philip.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Vincent P. De Luise, MD",
+    "years": "1981–82",
+    "decade": "1980s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jonathan Belmont, MD",
+    "years": "1980–82",
+    "decade": "1980s",
+    "country": "",
+    "photo": "belmont-jonathan.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert M. Lang, MD",
+    "years": "1980–81",
+    "decade": "1980s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Shao-Chen Li, MD",
+    "years": "1980–81",
+    "decade": "1980s",
+    "country": "China",
+    "photo": "li-shao-chen.webp",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ali Mourad, MD",
+    "years": "1979",
+    "decade": "1970s",
+    "country": "Europe",
+    "photo": "",
+    "role": "WHO Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Fethy El-Sahn, MD",
+    "years": "1979",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Fook Lin Leong-Sit, MD",
+    "years": "1979",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Scott L. Feiler, MD",
+    "years": "1979–80",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "William Culbertson, MD",
+    "years": "1979–80",
+    "decade": "1970s",
+    "country": "",
+    "photo": "culbertson-william.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "David H. Fischer, MD",
+    "years": "1978",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Dean C. Brick, MD",
+    "years": "1978–79",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Joseph B. Michelson, MD",
+    "years": "1978",
+    "decade": "1970s",
+    "country": "",
+    "photo": "michelson-joseph.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ulla (Christine) C. West, MD",
+    "years": "1978–79",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert J. Masi, MD",
+    "years": "1977–78",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "George Mintsioulis, MD",
+    "years": "1976–77",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ira G. Wong, MD",
+    "years": "1976–77",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Richard Dennis, MD",
+    "years": "1976–77",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert S. Weinberg, MD",
+    "years": "1976–77",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jacinto U. Dy-Liacco, MD",
+    "years": "1975–77",
+    "decade": "1970s",
+    "country": "Philippines",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Kathleen O. Yammaguchi, MD",
+    "years": "1975–78",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ahmad Ahmad, MD",
+    "years": "1974–76",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Helen Jane Blackman, MD",
+    "years": "1974–75",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Hong Bok Kim, MD",
+    "years": "1974–75",
+    "decade": "1970s",
+    "country": "Korea",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Richard J. Weinberg, MD",
+    "years": "1974–75",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert G. Martin, MD",
+    "years": "1974–75",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Rubens Jr. Belfort-Mattos, MD",
+    "years": "1974–75",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Bruce W. Jackson, MD",
+    "years": "1973–74",
+    "decade": "1970s",
+    "country": "Canada",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Douglas L. Perry, MD",
+    "years": "1973–74",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "John P. Whitcher, MD",
+    "years": "1973–74",
+    "decade": "1970s",
+    "country": "",
+    "photo": "whitcher-john-p.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Roger F. Meyer, MD",
+    "years": "1973–74",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jeffrey Day Lanier, MD",
+    "years": "1972–73",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Mardiono Marsetio, MD",
+    "years": "1972–73",
+    "decade": "1970s",
+    "country": "Indonesia",
+    "photo": "",
+    "role": "International Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "John S. Wilkie, MD",
+    "years": "1971–72",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Ronald G. Jans, MD",
+    "years": "1971",
+    "decade": "1970s",
+    "country": "Canada",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Franklin F. Cignetti, MD",
+    "years": "1970–72",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Giovanni B. Moschini, MD",
+    "years": "1970–71",
+    "decade": "1970s",
+    "country": "Italy",
+    "photo": "",
+    "role": "Fight for Sight Fellowship",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Iour Federovich Maitchouk, MD",
+    "years": "1970",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Michael A. Naidoff, MD",
+    "years": "1970–71",
+    "decade": "1970s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Carole E. West, MD",
+    "years": "1969",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "George Bohigan, MD",
+    "years": "1969–70",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert A. Hyndiuk, MD",
+    "years": "1969–70",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Abdallah M. Isa, MD",
+    "years": "1968–69",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Endliam Chowchuvech, MD",
+    "years": "1968–69",
+    "decade": "1960s",
+    "country": "Thailand",
+    "photo": "chowchuvech-endliam-2.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jack Plotkin, MD",
+    "years": "1968–69",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Lung-Jui Yeh, MD",
+    "years": "1968",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "WHO Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Richard Forster, MD",
+    "years": "1968–69",
+    "decade": "1960s",
+    "country": "",
+    "photo": "forster-robert-k.webp",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Walter L. Burt, MD",
+    "years": "1968–69",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Clyde L. Olson, MD",
+    "years": "1967–68",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Moh Mansjoer, MD",
+    "years": "1967",
+    "decade": "1960s",
+    "country": "Indonesia",
+    "photo": "",
+    "role": "WHO Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Aleksandar Parunovic, MD",
+    "years": "1965–66",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Jerome J. Kazdan, MD",
+    "years": "1965–66",
+    "decade": "1960s",
+    "country": "Canada",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Mark S. Feldman, MD",
+    "years": "1965–66",
+    "decade": "1960s",
+    "country": "",
+    "photo": "feldman-mark.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Peter Lyle Davis, MD",
+    "years": "1965–66",
+    "decade": "1960s",
+    "country": "",
+    "photo": "davis-peter-lyle.webp",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Thomas R. Wood, MD",
+    "years": "1965–66",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Anne-Catherine Martenet, MD",
+    "years": "1964–65",
+    "decade": "1960s",
+    "country": "",
+    "photo": "martenet-anne-catherine.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Olga Litricin, MD",
+    "years": "1962",
+    "decade": "1960s",
+    "country": "",
+    "photo": "litricin-olga.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Thomas H. Pettit, MD",
+    "years": "1962–63",
+    "decade": "1960s",
+    "country": "",
+    "photo": "pettit-thomas.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Yukifumi Nakaizumi, MD",
+    "years": "1962",
+    "decade": "1960s",
+    "country": "Japan",
+    "photo": "nakaizumi-yukifumi.png",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Martin E. Corwin, MD",
+    "years": "1961–63",
+    "decade": "1960s",
+    "country": "",
+    "photo": "corwin-martin.jpg",
+    "role": "",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Carl H. Mordhorst, MD",
+    "years": "1960–62",
+    "decade": "1960s",
+    "country": "",
+    "photo": "",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Victor M. Diaz-Bonnet, MD",
+    "years": "1960–62",
+    "decade": "1960s",
+    "country": "",
+    "photo": "diaz-bonnet-victor.jpg",
+    "role": "Research Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
+  },
+  {
+    "name": "Robert Y. Barishak, MD",
+    "years": "1957–59",
+    "decade": "1950s",
+    "country": "",
+    "photo": "barishak-robert.jpg",
+    "role": "Fellow",
+    "schooling": [],
+    "position": "",
+    "publications": [],
+    "links": []
   }
-  *{box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
-  body{
-    margin:0; background:var(--bg); color:var(--ink);
-    font-family:var(--serif); font-size:17px; line-height:1.7;
-  }
-  .wrap{max-width:1200px; margin:0 auto; padding:0 20px;}
-  a{color:var(--accent); text-decoration:none;}
-  a:hover{text-decoration:underline;}
-
-  /* ---------- header ---------- */
-  .masthead{padding:34px 0 8px;}
-  .eyebrow{
-    display:inline-block; font-family:var(--sans); font-size:.72rem; font-weight:700;
-    letter-spacing:2px; text-transform:uppercase; color:var(--accent);
-    background:var(--accent-soft); padding:6px 14px; border-radius:20px; margin:0 0 16px;
-  }
-  .masthead h1{font-size:2.6rem; line-height:1.1; letter-spacing:-.015em; margin:0 0 12px;}
-  .masthead p{color:var(--ink-soft); font-size:1.12rem; max-width:820px; margin:0;}
-
-  /* ---------- controls ---------- */
-  .controls{
-    position:sticky; top:0; z-index:40;
-    background:rgba(245,247,250,.96); backdrop-filter:blur(8px);
-    -webkit-backdrop-filter:blur(8px);
-    border-bottom:1px solid var(--line);
-    padding:14px 0; margin:22px 0 8px;
-  }
-  .controls-row{display:flex; gap:12px; flex-wrap:wrap; align-items:center;}
-  .search{flex:1 1 280px; position:relative; min-width:220px;}
-  .search input{
-    width:100%; font-family:var(--sans); font-size:.95rem;
-    padding:11px 14px 11px 38px; border:1px solid var(--line); border-radius:10px;
-    background:var(--paper); color:var(--ink);
-  }
-  .search input:focus{outline:2px solid var(--accent); outline-offset:0; border-color:var(--accent);}
-  .search svg{position:absolute; left:12px; top:50%; transform:translateY(-50%); width:18px; height:18px; color:var(--muted);}
-  select{
-    font-family:var(--sans); font-size:.9rem; font-weight:600; color:var(--ink-soft);
-    padding:10px 12px; border:1px solid var(--line); border-radius:10px; background:var(--paper);
-  }
-  select:focus{outline:2px solid var(--accent);}
-  .count{font-family:var(--sans); font-size:.82rem; color:var(--muted); margin-left:auto; white-space:nowrap;}
-
-  /* decade rail */
-  .rail{display:flex; gap:6px; flex-wrap:wrap; margin-top:12px;}
-  .rail button{
-    font-family:var(--sans); font-size:.8rem; font-weight:600; cursor:pointer;
-    color:var(--ink-soft); background:var(--paper); border:1px solid var(--line);
-    border-radius:16px; padding:5px 13px;
-  }
-  .rail button:hover{color:var(--accent); border-color:var(--accent); background:var(--accent-soft);}
-
-  /* ---------- year band ---------- */
-  .year-band{
-    display:flex; align-items:baseline; gap:14px;
-    margin:40px 0 20px; padding-bottom:12px; border-bottom:2px solid var(--accent);
-    scroll-margin-top:150px;
-  }
-  .year-band h2{font-size:1.7rem; font-weight:700; margin:0; letter-spacing:-.01em;}
-  .year-band .yb-count{font-family:var(--sans); font-size:.78rem; font-weight:600; color:var(--muted); margin-left:auto;}
-
-  /* ---------- fellow grid + card ---------- */
-  .grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
-  .fellow{
-    background:var(--paper); border:1px solid var(--line); border-left:4px solid var(--accent);
-    border-radius:var(--radius); box-shadow:var(--shadow-1); overflow:hidden;
-    transition:box-shadow .2s ease, transform .2s ease;
-  }
-  .fellow:hover{box-shadow:var(--shadow-2); transform:translateY(-2px);}
-  .fellow-head{
-    display:grid; grid-template-columns:96px 1fr 22px; gap:18px; align-items:center;
-    width:100%; text-align:left; background:none; border:0; cursor:pointer;
-    padding:16px 18px; font-family:var(--serif); color:inherit;
-  }
-  .photo{
-    width:96px; height:96px; border-radius:10px; overflow:hidden; background:var(--bg);
-    position:relative; flex-shrink:0;
-  }
-  .photo img{width:100%; height:100%; object-fit:contain; display:block; background:var(--bg);}
-  .photo.empty{display:flex; align-items:center; justify-content:center; border:1px dashed #c5d0db;}
-  .photo.empty svg{width:40px; height:40px; color:#c5d0db;}
-  .who{min-width:0; display:flex; flex-direction:column; gap:7px;}
-  .who .name{display:block; font-size:1.12rem; font-weight:700; line-height:1.35; margin:0;}
-  .who .meta{display:block; font-family:var(--sans); font-size:.95rem; font-weight:600; color:var(--muted); line-height:1.35; margin-top:2px;}
-  .who .role{
-    display:inline-block; align-self:flex-start; font-family:var(--sans); font-size:.66rem; font-weight:700;
-    letter-spacing:1.2px; text-transform:uppercase; color:var(--accent);
-    background:var(--accent-soft); padding:2px 9px; border-radius:12px; margin-top:2px;
-  }
-  .chevron{color:var(--muted); font-size:1.1rem; transition:transform .2s ease; justify-self:center;}
-  .fellow[open] .chevron{transform:rotate(90deg); color:var(--accent);}
-
-  /* cabinet */
-  .cabinet{padding:0 18px; max-height:0; overflow:hidden; transition:max-height .28s ease;}
-  .fellow[open] .cabinet{max-height:1200px;}
-  .cabinet-inner{padding:4px 0 18px; border-top:1px solid var(--line); margin-top:2px;}
-  .cab-section{margin-top:14px;}
-  .cab-section h3{
-    font-family:var(--sans); font-size:.68rem; font-weight:700; letter-spacing:1.4px;
-    text-transform:uppercase; color:var(--accent); margin:0 0 6px;
-  }
-  .cab-section ul{margin:0; padding:0; list-style:none;}
-  .cab-section li{
-    font-size:.9rem; color:var(--ink-soft); line-height:1.5; margin:0 0 5px; padding-left:14px; position:relative;
-  }
-  .cab-section li::before{content:"\203a"; color:var(--accent); position:absolute; left:0; font-weight:700;}
-  .cab-empty{font-size:.9rem; color:var(--muted); font-style:italic; padding-top:12px;}
-
-  /* states */
-  .state{padding:60px 0; text-align:center; color:var(--muted); font-family:var(--sans);}
-  .noresults{padding:40px 0; text-align:center; color:var(--muted); font-family:var(--sans);}
-
-  @media (max-width:880px){
-    .grid{grid-template-columns:1fr;}
-    .masthead h1{font-size:2rem;}
-  }
-  @media (prefers-reduced-motion:reduce){
-    *{transition:none !important; scroll-behavior:auto !important;}
-  }
-</style>
-</head>
-<body>
-<div class="wrap">
-  <header class="masthead">
-    <span class="eyebrow">Alumni Directory</span>
-    <h1>Proctor Fellows</h1>
-    <p>Fellowship alumni from the founding years to today. Search by name, year, or country of origin — or open a card for schooling, current position, and publications from their Proctor years.</p>
-  </header>
-
-  <div class="controls">
-    <div class="controls-row">
-      <div class="search">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input id="q" type="search" placeholder="Search name, year, or country…" autocomplete="off" aria-label="Search fellows">
-      </div>
-      <select id="decade" aria-label="Filter by decade"><option value="">All decades</option></select>
-      <select id="country" aria-label="Filter by country"><option value="">All countries</option></select>
-      <span class="count" id="count"></span>
-    </div>
-    <div class="rail" id="rail"></div>
-  </div>
-
-  <main id="directory"><div class="state">Loading directory…</div></main>
-</div>
-
-<script>
-(function(){
-  var DATA=[], byYear=[];
-
-  function startYear(label){
-    var m=(label||"").match(/(\d{4})/);
-    return m?parseInt(m[1],10):0;
-  }
-  function bandLabel(y){ return y? (y+"\u2013"+String(y+1).slice(2)) : "Year unknown"; }
-
-  function placeholderSVG(){
-    return '<div class="photo empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg></div>';
-  }
-  function photoHTML(f){
-    if(!f.photo) return placeholderSVG();
-    return '<div class="photo"><img loading="lazy" src="img/'+f.photo+'" alt="'+escapeHtml(f.name)+'" onerror="this.parentNode.outerHTML=&quot;'+placeholderSVG().replace(/"/g,'&quot;')+'&quot;"></div>';
-  }
-  function escapeHtml(s){return (s||"").replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
-
-  function cabinet(f){
-    var parts=[];
-    if(f.position) parts.push('<div class="cab-section"><h3>Current position</h3><ul><li>'+escapeHtml(f.position)+'</li></ul></div>');
-    if(f.schooling && f.schooling.length) parts.push('<div class="cab-section"><h3>Training &amp; education</h3><ul>'+f.schooling.map(function(s){return '<li>'+escapeHtml(s)+'</li>';}).join('')+'</ul></div>');
-    if(f.publications && f.publications.length) parts.push('<div class="cab-section"><h3>Publications from Proctor years</h3><ul>'+f.publications.map(function(p){return '<li>'+escapeHtml(p)+'</li>';}).join('')+'</ul></div>');
-    if(f.links && f.links.length){
-      parts.push('<div class="cab-section"><h3>Links</h3><ul>'+f.links.map(function(l){return '<li><a href="'+escapeHtml(l)+'" target="_blank" rel="noopener">'+escapeHtml(l.replace(/^https?:\/\/(www\.)?/,'').split('/')[0])+'</a></li>';}).join('')+'</ul></div>');
-    }
-    if(!parts.length) return '<div class="cab-empty">More details coming soon.</div>';
-    return parts.join('');
-  }
-
-  function cardHTML(f){
-    var meta=[f.years, f.country].filter(Boolean).join('  \u00b7  ');
-    var role=f.role? '<span class="role">'+escapeHtml(f.role)+'</span>':'';
-    return '<details class="fellow">'
-      +'<summary class="fellow-head">'
-        + photoHTML(f)
-        +'<span class="who"><span class="name">'+escapeHtml(f.name)+'</span>'
-          +'<span class="meta">'+escapeHtml(meta)+'</span>'+role+'</span>'
-        +'<span class="chevron">\u203a</span>'
-      +'</summary>'
-      +'<div class="cabinet"><div class="cabinet-inner">'+cabinet(f)+'</div></div>'
-      +'</details>';
-  }
-
-  function build(){
-    // group by start year desc
-    var groups={};
-    DATA.forEach(function(f){ f._y=startYear(f.years); (groups[f._y]=groups[f._y]||[]).push(f); });
-    byYear=Object.keys(groups).map(Number).sort(function(a,b){return b-a;}).map(function(y){return {y:y,items:groups[y]};});
-
-    // populate filters
-    var decs={}, ctys={};
-    DATA.forEach(function(f){ if(f.decade) decs[f.decade]=1; if(f.country) ctys[f.country]=1; });
-    var dsel=document.getElementById('decade');
-    Object.keys(decs).sort().reverse().forEach(function(d){ dsel.insertAdjacentHTML('beforeend','<option value="'+d+'">'+d+'</option>'); });
-    var csel=document.getElementById('country');
-    Object.keys(ctys).sort().forEach(function(c){ csel.insertAdjacentHTML('beforeend','<option value="'+escapeHtml(c)+'">'+escapeHtml(c)+'</option>'); });
-
-    // decade rail
-    var rail=document.getElementById('rail');
-    Object.keys(decs).sort().reverse().forEach(function(d){
-      var b=document.createElement('button'); b.textContent=d; b.dataset.decade=d;
-      b.onclick=function(){ var el=document.querySelector('[data-decade-anchor="'+d+'"]'); if(el) el.scrollIntoView(); };
-      rail.appendChild(b);
-    });
-
-    render();
-  }
-
-  function render(){
-    var q=document.getElementById('q').value.trim().toLowerCase();
-    var fd=document.getElementById('decade').value;
-    var fc=document.getElementById('country').value;
-    var html='', shown=0, seenDecade={};
-
-    byYear.forEach(function(g){
-      var items=g.items.filter(function(f){
-        if(fd && f.decade!==fd) return false;
-        if(fc && f.country!==fc) return false;
-        if(q){
-          var blob=(f.name+' '+f.years+' '+(f.country||'')+' '+(f.role||'')).toLowerCase();
-          if(blob.indexOf(q)===-1) return false;
-        }
-        return true;
-      });
-      if(!items.length) return;
-      shown+=items.length;
-      var anchor='';
-      if(g.items[0] && g.items[0].decade && !seenDecade[g.items[0].decade]){
-        seenDecade[g.items[0].decade]=1;
-        anchor=' data-decade-anchor="'+g.items[0].decade+'"';
-      }
-      html+='<section class="year-block"><div class="year-band"'+anchor+'><h2>'+bandLabel(g.y)+'</h2>'
-           +'<span class="yb-count">'+items.length+(items.length===1?' fellow':' fellows')+'</span></div>'
-           +'<div class="grid">'+items.map(cardHTML).join('')+'</div></section>';
-    });
-
-    var dir=document.getElementById('directory');
-    dir.innerHTML = shown? html : '<div class="noresults">No fellows match that search. Try a name, a year like 2015, or a country.</div>';
-    document.getElementById('count').textContent = shown+' of '+DATA.length+' fellows';
-    postHeight();
-  }
-
-  // live filtering
-  ['q','decade','country'].forEach(function(id){
-    document.addEventListener('input', function(e){ if(e.target.id===id) render(); });
-  });
-
-  // iframe auto-resize (optional; parent listens for {proctorFellowsHeight})
-  function postHeight(){
-    if(window.parent!==window){
-      try{ window.parent.postMessage({proctorFellowsHeight:document.body.scrollHeight}, '*'); }catch(e){}
-    }
-  }
-  window.addEventListener('load', postHeight);
-  document.addEventListener('toggle', function(e){ if(e.target.classList && e.target.classList.contains('fellow')) postHeight(); }, true);
-
-  // load data
-  fetch('fellows.json', {cache:'no-store'})
-    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function(json){ DATA=json; build(); })
-    .catch(function(err){
-      document.getElementById('directory').innerHTML=
-        '<div class="state">Could not load <strong>fellows.json</strong>.<br>'
-        +'This page must be served over http(s) — it works on GitHub Pages. '
-        +'To preview locally, run a small web server in this folder rather than opening the file directly.</div>';
-    });
-})();
-</script>
-</body>
-</html>
+]
