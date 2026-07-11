@@ -98,13 +98,13 @@
   .photo img{width:100%; height:100%; object-fit:contain; display:block; background:var(--bg);}
   .photo.empty{display:flex; align-items:center; justify-content:center; border:1px dashed #c5d0db;}
   .photo.empty svg{width:40px; height:40px; color:#c5d0db;}
-  .who{min-width:0;}
-  .who .name{font-size:1.12rem; font-weight:700; line-height:1.25;}
-  .who .meta{font-family:var(--sans); font-size:.82rem; font-weight:600; color:var(--muted); margin-top:3px;}
+  .who{min-width:0; display:flex; flex-direction:column; gap:7px;}
+  .who .name{display:block; font-size:1.12rem; font-weight:700; line-height:1.35; margin:0;}
+  .who .meta{display:block; font-family:var(--sans); font-size:.95rem; font-weight:600; color:var(--muted); line-height:1.35; margin-top:2px;}
   .who .role{
-    display:inline-block; font-family:var(--sans); font-size:.66rem; font-weight:700;
+    display:inline-block; align-self:flex-start; font-family:var(--sans); font-size:.66rem; font-weight:700;
     letter-spacing:1.2px; text-transform:uppercase; color:var(--accent);
-    background:var(--accent-soft); padding:2px 9px; border-radius:12px; margin-top:7px;
+    background:var(--accent-soft); padding:2px 9px; border-radius:12px; margin-top:2px;
   }
   .chevron{color:var(--muted); font-size:1.1rem; transition:transform .2s ease; justify-self:center;}
   .fellow[open] .chevron{transform:rotate(90deg); color:var(--accent);}
@@ -164,7 +164,7 @@
 
 <script>
 (function(){
-  var DATA=[], byYear=[];
+  var DATA=[], byYear=[], MAXYEAR=0;
 
   function startYear(label){
     var m=(label||"").match(/(\d{4})/);
@@ -212,6 +212,7 @@
     var groups={};
     DATA.forEach(function(f){ f._y=startYear(f.years); (groups[f._y]=groups[f._y]||[]).push(f); });
     byYear=Object.keys(groups).map(Number).sort(function(a,b){return b-a;}).map(function(y){return {y:y,items:groups[y]};});
+    MAXYEAR = byYear.length ? byYear[0].y : 0;
 
     // populate filters
     var decs={}, ctys={};
@@ -255,7 +256,8 @@
         seenDecade[g.items[0].decade]=1;
         anchor=' data-decade-anchor="'+g.items[0].decade+'"';
       }
-      html+='<section class="year-block"><div class="year-band"'+anchor+'><h2>'+bandLabel(g.y)+'</h2>'
+      var heading = (g.y===MAXYEAR) ? 'Current Fellows' : bandLabel(g.y);
+      html+='<section class="year-block"><div class="year-band"'+anchor+'><h2>'+heading+'</h2>'
            +'<span class="yb-count">'+items.length+(items.length===1?' fellow':' fellows')+'</span></div>'
            +'<div class="grid">'+items.map(cardHTML).join('')+'</div></section>';
     });
