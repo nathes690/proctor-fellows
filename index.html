@@ -137,13 +137,19 @@
   function placeholderSVG(){
     return '<div class="photo empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg></div>';
   }
-  // Always try to load the photo. If the file isn't in img/ yet, swap to a
-  // placeholder AND flag the card so the red NEEDS PHOTO badge appears.
+  // Missing-photo handler: when an image 404s, flag the card (reveals the
+  // red NEEDS PHOTO badge) and swap the broken img for the placeholder.
+  window.__fellowNoPhoto=function(img){
+    img.onerror=null;
+    var card=img.closest('.fellow'); if(card) card.classList.add('nophoto');
+    var box=img.parentNode; if(box) box.className='photo empty', box.innerHTML=
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>';
+  };
+  // Always try to load the photo; if the file isn't in img/ yet the handler
+  // above shows a placeholder and the NEEDS PHOTO badge.
   function photoHTML(f){
     if(!f.photo) return placeholderSVG();
-    var onerr="this.onerror=null;var c=this.closest('.fellow');if(c)c.classList.add('nophoto');"
-             +"this.parentNode.outerHTML='"+placeholderSVG().replace(/'/g,"\\'")+"';";
-    return '<div class="photo"><img loading="lazy" src="img/'+escapeHtml(f.photo)+'" alt="'+escapeHtml(f.name)+'" onerror="'+onerr+'"></div>';
+    return '<div class="photo"><img loading="lazy" src="img/'+escapeHtml(f.photo)+'" alt="'+escapeHtml(f.name)+'" onerror="window.__fellowNoPhoto(this)"></div>';
   }
   function memoriamBadge(f){
     if(!f.inMemoriam) return "";
